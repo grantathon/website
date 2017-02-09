@@ -34,6 +34,10 @@ INSTALLED_APPS = [
     'pages',
 ]
 
+ALLOWED_HOSTS = [
+    'mysterious-bastion-71736.herokuapp.com',
+]
+
 ROOT_URLCONF = 'mysite.urls'
 
 TEMPLATES = [
