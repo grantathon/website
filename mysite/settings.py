@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0d205kq3n3_38ecgfr91(z(7$453m#_vq5czlbt)*+l-w+^v-g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 # Application definition
@@ -35,7 +35,6 @@ INSTALLED_APPS = [
 ]
 
 ALLOWED_HOSTS = [
-    'mysterious-bastion-71736.herokuapp.com',
     'grantbartel.com',
 ]
 
