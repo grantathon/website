@@ -1,0 +1,24 @@
+link {
+	display: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #fff;
+	color: #333;
+	font-family: 'Ubuntu', serif;
+}
+
+h1, p, div {
+	text-align: center;
+}
